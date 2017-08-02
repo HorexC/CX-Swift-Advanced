@@ -14,6 +14,8 @@
 		F1BD253E1F0F3E10007F5F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BD253C1F0F3E10007F5F4B /* LaunchScreen.storyboard */; };
 		F1BD25491F0F3E10007F5F4B /* Swift_Advanced_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BD25481F0F3E10007F5F4B /* Swift_Advanced_DemoTests.swift */; };
 		F1BD25541F0F3E10007F5F4B /* Swift_Advanced_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BD25531F0F3E10007F5F4B /* Swift_Advanced_DemoUITests.swift */; };
+		F1EC68541F31BDF4007C1A05 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC68531F31BDF4007C1A05 /* Array.swift */; };
+		F1EC68561F31D48D007C1A05 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC68551F31D48D007C1A05 /* Dictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F1BD254F1F0F3E10007F5F4B /* Swift-Advanced-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Advanced-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BD25531F0F3E10007F5F4B /* Swift_Advanced_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Advanced_DemoUITests.swift; sourceTree = "<group>"; };
 		F1BD25551F0F3E10007F5F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EC68531F31BDF4007C1A05 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		F1EC68551F31D48D007C1A05 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F1BD253A1F0F3E10007F5F4B /* Assets.xcassets */,
 				F1BD253C1F0F3E10007F5F4B /* LaunchScreen.storyboard */,
 				F1BD253F1F0F3E10007F5F4B /* Info.plist */,
+				F1EC68531F31BDF4007C1A05 /* Array.swift */,
+				F1EC68551F31D48D007C1A05 /* Dictionary.swift */,
 			);
 			path = "Swift-Advanced-Demo";
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EC68541F31BDF4007C1A05 /* Array.swift in Sources */,
+				F1EC68561F31D48D007C1A05 /* Dictionary.swift in Sources */,
 				F1BD25361F0F3E10007F5F4B /* ViewController.swift in Sources */,
 				F1BD25341F0F3E10007F5F4B /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +515,7 @@
 				F1BD255A1F0F3E10007F5F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1BD255B1F0F3E10007F5F4B /* Build configuration list for PBXNativeTarget "Swift-Advanced-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				F1BD255D1F0F3E10007F5F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1BD255E1F0F3E10007F5F4B /* Build configuration list for PBXNativeTarget "Swift-Advanced-DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				F1BD25601F0F3E10007F5F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
